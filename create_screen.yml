@@ -1,0 +1,332 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: D:\programming\flutter_project\breaking_news
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 232
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 23
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 638
+    content: "\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nTry the new cross-platform PowerShell https://aka.ms/pscore6\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[6;1H\e[?25h"
+  - delay: 106
+    content: 'PS D:\programming\flutter_project\breaking_news> '
+  - delay: 1730
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93mterminalizer\e[m record create_screen\e[?25h"
+  - delay: 743
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;50Hcd\e[m .\\breaking_news\\\e[14X\e[?25h"
+  - delay: 734
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;50Hhpf\e[m create project:breaking_news\e[?25h"
+  - delay: 1177
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;50Hhpf\e[m create project:breaking_new \b\e[?25h"
+  - delay: 488
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;50Hhpf\e[m create project:breaking_ne \b\e[?25h"
+  - delay: 22
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;50Hhpf\e[m create project:breaking_n \b\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[93m\e[6;50Hhpf\e[m create project:breaking_ \b\e[?25h"
+  - delay: 34
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[6;50Hhpf\e[m create project:breaking \b\e[?25h"
+  - delay: 22
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;50Hhpf\e[m create project:breakin \b\e[?25h"
+  - delay: 21
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;50Hhpf\e[m create project:breaki \b\e[?25h"
+  - delay: 22
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;50Hhpf\e[m create project:break \b\e[?25h"
+  - delay: 21
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;50Hhpf\e[m create project:brea \b\e[?25h"
+  - delay: 20
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;50Hhpf\e[m create project:bre \b\e[?25h"
+  - delay: 20
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;50Hhpf\e[m create project:br \b\e[?25h"
+  - delay: 20
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;50Hhpf\e[m create project:b \b\e[?25h"
+  - delay: 22
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[6;50Hhpf\e[m create project: \b\e[?25h"
+  - delay: 20
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;50Hhpf\e[m create project \b\e[?25h"
+  - delay: 42
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;50Hhpf\e[m create projec \b\e[?25h"
+  - delay: 14
+    content: "\e[25l\e[93m\e[6;50Hhpf\e[m create proje \b\e[?25h"
+  - delay: 19
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[6;50Hhpf\e[m create proj \b\e[?25h"
+  - delay: 20
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[6;50Hhpf\e[m create pro \b\e[?25h"
+  - delay: 300
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[6;50Hhpf\e[m create pr \b\e[?25h"
+  - delay: 230
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;50Hhpf\e[m create p \b\e[?25h"
+  - delay: 366
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;50Hhpf\e[m create  \b\e[?25h"
+  - delay: 1243
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;50Hhpf\e[m create s\e[?25h"
+  - delay: 242
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;50Hhpf\e[m create sc\e[?25h"
+  - delay: 204
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;50Hhpf\e[m create scr\e[?25h"
+  - delay: 263
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;50Hhpf\e[m create scre\e[?25h"
+  - delay: 139
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;50Hhpf\e[m create scree\e[?25h"
+  - delay: 129
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[6;50Hhpf\e[m create screen\e[?25h"
+  - delay: 772
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;50Hhpf\e[m create screen:\e[?25h"
+  - delay: 302
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;50Hhpf\e[m create screen:h\e[?25h"
+  - delay: 123
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;50Hhpf\e[m create screen:ho\e[?25h"
+  - delay: 204
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[6;50Hhpf\e[m create screen:hom\e[?25h"
+  - delay: 168
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;50Hhpf\e[m create screen:home\e[?25h"
+  - delay: 1675
+    content: "\r\n"
+  - delay: 592
+    content: >-
+      hoan.dv: sample path:
+      lib\presentation\views\screens\home\\\\home_state.dart
+  - delay: 21
+    content: "\r\n"
+  - delay: 184
+    content: >-
+      hoan.dv: sample path:
+      lib\presentation\views\screens\home\\\\home_controller.dart
+  - delay: 17
+    content: "\r\n"
+  - delay: 17
+    content: >-
+      hoan.dv: sample path:
+      lib\presentation\views\screens\home\\\\home_screen.dart
+  - delay: 15
+    content: "\r\nSuccess create screen Home \r\nRunning `flutter pub get` …\r\n"
+  - delay: 32
+    content: "$ flutter packages pub run build_runner build --delete-conflicting-outputs\r\n"
+  - delay: 1913
+    content: "[INFO] Generating build script...\r\n"
+  - delay: 337
+    content: "\e[25l[INFO] Generating build script completed, took 351ms\e[16;1H\e[?25h"
+  - delay: 480
+    content: "[INFO] Initializing inputs\r\n"
+  - delay: 17
+    content: "[INFO] Reading cached asset graph...\r\n"
+  - delay: 74
+    content: "\e[25l[INFO] Reading cached asset graph completed, took 79ms\e[20;1H\e[?25h"
+  - delay: 384
+    content: "[INFO] Checking for updates since last build...\r\n"
+  - delay: 610
+    content: "\e[25l[INFO] Checking for updates since last build completed, took 609ms\e[23;1H\e[?25h"
+  - delay: 25
+    content: "[INFO] Running build...\r\n"
+  - delay: 1064
+    content: "[INFO] 1.1s elapsed, 0/3 actions completed.\r\n"
+  - delay: 1048
+    content: "[INFO] 2.1s elapsed, 0/3 actions completed.\r\n"
+  - delay: 1204
+    content: "[INFO] 3.3s elapsed, 0/3 actions completed.\r\n"
+  - delay: 6559
+    content: "[INFO] 9.9s elapsed, 2/3 actions completed.\r\n"
+  - delay: 385
+    content: "[INFO] Running build completed, took 10.3s\r\n\n[INFO] Caching finalized dependency graph..."
+  - delay: 12
+    content: "\r\n"
+  - delay: 20
+    content: "[INFO] Caching finalized dependency graph completed, took 32ms\r\n\n[INFO] Succeeded after 10.3s with 3 outputs (15 actions)\r\n"
+  - delay: 9
+    content: |+
+
+  - delay: 249
+    content: 'PS D:\programming\flutter_project\breaking_news> '
+  - delay: 2905
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93me\e[?25h"
+  - delay: 209
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\bex\e[?25h"
+  - delay: 165
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[23;50Hexi\e[?25h"
+  - delay: 190
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[92m\e[23;50Hexit\e[?25h"
+  - delay: 708
+    content: "\e[25l\e[m\e[H[INFO] Generating build script completed, took 351ms\e[K\r\n\e[K\r\n[INFO] Initializing inputs\e[K\r\n[INFO] Reading cached asset graph...\e[K\r\n[INFO] Reading cached asset graph completed, took 79ms\e[K\r\n\e[K\r\n[INFO] Checking for updates since last build...\e[K\r\n[INFO] Checking for updates since last build completed, took 609ms\e[K\r\n\e[K\r\n[INFO] Running build...\e[K\r\n[INFO] 1.1s elapsed, 0/3 actions completed.\e[K\r\n[INFO] 2.1s elapsed, 0/3 actions completed.\e[K\r\n[INFO] 3.3s elapsed, 0/3 actions completed.\e[K\r\n[INFO] 9.9s elapsed, 2/3 actions completed.\e[K\r\n[INFO] Running build completed, took 10.3s\e[K\r\n\e[K\r\n[INFO] Caching finalized dependency graph...\e[K\r\n[INFO] Caching finalized dependency graph completed, took 32ms\e[K\r\n\e[K\r\n[INFO] Succeeded after 10.3s with 3 outputs (15 actions)\e[K\r\n\e[K\r\nPS D:\\programming\\flutter_project\\breaking_news> \e[92mexit\e[m\e[K\r\n\e[K\e[53C\e[?25h"
+  - delay: 19
+    content: "\r"
